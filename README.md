@@ -1,59 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💊 Pharmexa ERP
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Modern Pharmacy Management, POS & Inventory System
 
-## About Laravel
+Pharmexa ERP is a full-stack pharmacy management platform designed to simplify day-to-day pharmacy operations including sales, purchasing, medicine inventory, stock control, customers, suppliers, expenses, reporting, and business management.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Built with **Laravel, React, Inertia.js, MySQL, Tailwind CSS, and Vite**, Pharmexa combines a modern user interface with a structured backend for managing pharmacy workflows efficiently.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Key Features
 
-## Learning Laravel
+### 🛒 Point of Sale (POS)
+- Fast pharmacy sales workflow
+- Medicine search and selection
+- Customer-based sales
+- Dosage management
+- Checkout and sale completion
+- Printable thermal receipts
+- Sale history and details
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### 💊 Medicine & Inventory Management
+- Medicine catalog management
+- Categories and manufacturers
+- Stock adjustments
+- Stock movement history
+- Expiry management
+- Medicine import
+- Barcode scanning
+- Medicine label printing
+- FEFO-based inventory handling
+- Serialized inventory support
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 📦 Purchasing
+- Purchase management
+- Supplier-based purchasing
+- Purchase item tracking
+- Purchase returns
+- Printable purchase documents
 
-## Laravel Sponsors
+### 🔄 Sales Returns
+- Process medicine returns
+- Track returned items
+- Maintain return history
+- Printable return documents
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 👥 Customers & Suppliers
+- Customer management
+- Supplier management
+- Customer sales history
+- Supplier purchase records
 
-### Premium Partners
+### 💰 Finance & Expenses
+- Expense tracking
+- Daily cash records
+- Profit & loss reporting
+- Financial summaries
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 📊 Reports
+- Sales reports
+- Purchase reports
+- Inventory reports
+- Profit & loss reports
+- Export and print support
 
-## Contributing
+### 🏥 Multi-Pharmacy Management
+- Pharmacy profiles
+- Pharmacy-specific inventory
+- Pharmacy-specific sales and purchases
+- Central platform management
+- User roles and permissions
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🔐 Authentication & User Management
+- Secure authentication
+- User registration and login
+- Password management
+- Role-based access control
+- Team management
+- Activity logs
 
-## Code of Conduct
+### 🏷️ Barcode & Traceability
+- Barcode label generation
+- GS1-related medicine fields
+- Serialized medicine tracking
+- Traceability transactions
+- Stock matching
+- Transaction logs
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### ⚙️ Pharmacy Settings
+- Pharmacy branding
+- Receipt configuration
+- Pharmacy information
+- Application settings
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🛠️ Technology Stack
 
-## License
+**Backend**
+- Laravel
+- PHP
+- MySQL
+- Eloquent ORM
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Frontend**
+- React.js
+- Inertia.js
+- Tailwind CSS
+- JavaScript
+
+**Development & Build**
+- Vite
+- Composer
+- NPM
+
+---
+
+## 🏗️ Application Architecture
+
+Pharmexa uses Laravel for backend business logic, authentication, database operations, APIs and services while React provides the interactive user interface.
+
+Inertia.js connects the Laravel backend with React, allowing the application to maintain a modern single-page application experience while using Laravel routing and controllers.
+
+---
+
+## 🔒 Security
+
+Sensitive environment configuration is excluded from this repository.
+
+The `.env` file, dependencies, local build files and other private/generated resources are ignored through `.gitignore`.
+
+Use `.env.example` when configuring a local development environment.
+
+---
+
+## 🚀 Local Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/jibranumar-labs/pharmexa-erp.git
+cd pharmexa-erp
